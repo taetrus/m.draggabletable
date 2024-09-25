@@ -59,7 +59,7 @@ const DraggableBodyRow = ({ index, moveRow, className, style, ...restProps }: Dr
   );
 };
 
-const App: React.FC = () => {
+const DraggableTable: React.FC = () => {
   const [data, setData] = useState<DataType[]>([
     { key: "1", name: "Furkan", age: 23, address: "Aaaaaaaa" },
     { key: "2", name: "Nuri", age: 34, address: "Bbbbbbbbbb" },
@@ -137,4 +137,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default DraggableTable;
